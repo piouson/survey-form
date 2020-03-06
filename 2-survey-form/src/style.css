@@ -1,3 +1,6 @@
+html {
+  font-size: 20px;
+}
 body {
   background-image: url('https://piouson.github.io/responsive-web-design/2-survey-form/portugal.jpg');
   background-repeat: no-repeat;
@@ -20,14 +23,14 @@ body {
   font-family: 'IBM Plex Sans', Verdana;
 }
 #page {
-  min-width: 300px;
-  max-width: 800px;
+  width: 100%;
   display: flex;
   flex-direction: column;
   margin: auto;
+  font-size: 1em;
 }
 #title {
-  font-size: 2.5em;
+  font-size: 2em;
 }
 #content {
   background-color: rgba(194,178,233,0.8);
@@ -46,8 +49,7 @@ body {
   transform: scale(1.5);
 }
 textarea {
-  font-size: 1.3em;
-  height: 10em;
+  height: 8em;
   resize: vertical;
 }
 #submit {
@@ -55,4 +57,13 @@ textarea {
 }
 :focus {
   border: 5px solid #4D4EB2 !important;
+}
+@media only screen and (min-width: 992px) {
+  #page {
+    min-width: 300px;
+    max-width: 800px;
+  }
+  #title {
+    font-size: 2.5em;
+  }
 }
