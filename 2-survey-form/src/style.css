@@ -37,7 +37,7 @@ body {
   background-color: rgba(194,178,233,0.8);
   line-height: 2;
 }
-#name, #email, #number, #dropdown, #submit, textarea {
+#name, #email, #number, #dropdown, #submit, #comments {
   height: 2.5em;
   width: 100%;
   padding-left: 1%;
@@ -49,17 +49,17 @@ body {
 [type=radio],[type=checkbox] {
   transform: scale(1.5);
 }
-textarea {
+#comments {
   height: 8em;
   resize: vertical;
 }
 #submit {
-  background-image: radial-gradient(#FFF,#9871C1);
+  background-image: radial-gradient(#FFFFFF,#9871C1);
 }
 :focus {
   border: 5px solid #4D4EB2 !important;
 }
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 800px) {
   #page {
     max-width: 800px;
   }
