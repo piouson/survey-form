@@ -1,3 +1,3 @@
 # Survey Form
 
-[Click here for Live HTML page](https://piouson.github.io/survey-form/)
+Visit [piouson.github.io](https://piouson.github.io/survey-form/) for Live HTML page.
